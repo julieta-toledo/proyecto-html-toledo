@@ -1,0 +1,80 @@
+/* ===== Tipografía general ===== */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* ===== Navegación ===== */
+nav {
+  background-color: #222;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff4b4b;
+}
+
+/* ===== Encabezados y párrafos ===== */
+h1, h2 {
+  color: #111;
+  text-align: center;
+  margin-top: 30px;
+}
+
+p {
+  margin: 10px 0;
+  text-align: justify;
+}
+
+/* ===== Secciones / contenedor ===== */
+section {
+  margin: 30px auto;
+  max-width: 800px;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* ===== Imágenes ===== */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+/* ===== Links y botones ===== */
+a {
+  color: #d93025;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 14px;
+}
